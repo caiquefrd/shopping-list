@@ -5,35 +5,35 @@ Expense Tracker
 
 A web application for managing personal expenses. Users can:
 
-Add expenses with descriptions, amounts, and dates.
-View a list of all expenses.
-Edit or delete existing expenses.
-View the total amount of expenses.
+    Add expenses with descriptions, amounts, and dates.
+    View a list of all expenses.
+    Edit or delete existing expenses.
+    View the total amount of expenses.
 
 The application is built using:
 
-Frontend: HTML, CSS, JavaScript
-Backend: Node.js, TypeScript, Express, MongoDB, Mongoose
+    Frontend: HTML, CSS, JavaScript
+    Backend: Node.js, TypeScript, Express, MongoDB, Mongoose
 
 Features
 
-Add Expenses: Use the form to input description, amount, and date.
-View Expenses: Displays a list of expenses in a readable format (dd-mm-yyyy).
-Edit Expenses: Modify an existing expense via a popup modal.
-Delete Expenses: Remove an expense from the list and the database.
-Total Expenses: Automatically calculates and displays the total expense.
+    Add Expenses: Use the form to input description, amount, and date.
+    View Expenses: Displays a list of expenses in a readable format (dd-mm-yyyy).
+    Edit Expenses: Modify an existing expense via a popup modal.
+    Delete Expenses: Remove an expense from the list and the database.
+    Total Expenses: Automatically calculates and displays the total expense.
 
 Requirements
 
-Node.js (v16 or newer)
-MongoDB (local instance or cloud)
-NPM (Node Package Manager)
+    Node.js (v16 or newer)
+    MongoDB (local instance or cloud)
+    NPM (Node Package Manager)
 
 Installation and Setup
 Clone the Repository
 
-git clone https://github.com/caiquefrd/expenses-tracker.git
-cd expense-tracker
+    git clone https://github.com/caiquefrd/expenses-tracker.git
+    cd expense-tracker
 
 Backend Setup
 
