@@ -32,7 +32,7 @@ Requirements
 Installation and Setup
 Clone the Repository
 
-git clone https://github.com/caiquefrd/expense-tracker.git
+git clone https://github.com/caiquefrd/expenses-tracker.git
 cd expense-tracker
 
 Backend Setup
