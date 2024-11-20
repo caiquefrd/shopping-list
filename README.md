@@ -37,50 +37,51 @@ cd expense-tracker
 
 Backend Setup
 
-    Navigate to the backend directory:
+Navigate to the backend directory:
 
-cd back
+    cd back
 
 Install dependencies:
 
-npm install
+    npm install
 
 Start MongoDB:
 
-    Ensure your MongoDB server is running locally or replace the connection string in src/index.ts with your MongoDB URI.
+Ensure your MongoDB server is running locally or replace the connection string in src/index.ts with your MongoDB URI.
 
 Run the backend server:
 
     npm start
 
-    The backend will run on http://localhost:3000.
+The backend will run on http://localhost:3000.
 
 Frontend Setup
 
-    Navigate to the frontend directory:
+Navigate to the frontend directory:
 
-cd front
+    cd front
 
 Open index.html in your browser:
 
     You can use a live server (e.g., the Live Server extension in VS Code) to preview.
 
-Project Structure
-expense-tracker/
-├── front/              # Frontend code
-│   ├── index.html      # Main HTML file
-│   ├── styles.css      # Styles for the frontend
-│   └── script.js       # Frontend logic
-├── back/               # Backend code
-│   ├── src/            # Source code
-│   │   ├── index.ts    # Entry point of the server
-│   │   ├── models/     # Mongoose models
-│   │   │   └── expense.ts
-│   │   └── routes/     # Routes for CRUD operations
-│   │       └── expenseRoutes.ts
-│   ├── package.json    # Dependencies and scripts
-│   └── tsconfig.json   # TypeScript configuration
-└── README.md           # Project documentation
+Project Structure:
+
+    expense-tracker/
+    ├── front/              # Frontend code
+    │   ├── index.html      # Main HTML file
+    │   ├── styles.css      # Styles for the frontend
+    │   └── script.js       # Frontend logic
+    ├── back/               # Backend code
+    │   ├── src/            # Source code
+    │   │   ├── index.ts    # Entry point of the server
+    │   │   ├── models/     # Mongoose models
+    │   │   │   └── expense.ts
+    │   │   └── routes/     # Routes for CRUD operations
+    │   │       └── expenseRoutes.ts
+    │   ├── package.json    # Dependencies and scripts
+    │   └── tsconfig.json   # TypeScript configuration
+    └── README.md           # Project documentation
 
 
 License
