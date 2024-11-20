@@ -1,4 +1,4 @@
-# expenses-register
+# expenses-tracker
 Basic expenses tracker using typescript, javascript html and mongoose with mongodb
 
 Expense Tracker
