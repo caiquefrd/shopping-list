@@ -1,14 +1,14 @@
-# expenses-tracker
-Basic expenses tracker using typescript, javascript html and mongoose with mongodb
+# shopping-list
+Basic shopping list tracker using TypeScript, JavaScript, HTML, and Mongoose with MongoDB
 
-Expense Tracker
+Shopping List Tracker
 
-A web application for managing personal expenses. Users can:
+A web application for managing shopping items. Users can:
 
-    Add expenses with descriptions, amounts, and dates.
-    View a list of all expenses.
-    Edit or delete existing expenses.
-    View the total amount of expenses.
+    Add items with descriptions and amounts.
+    View a list of all items.
+    Edit or delete existing items.
+    View the total amount of items.
 
 The application is built using:
 
@@ -17,11 +17,11 @@ The application is built using:
 
 Features
 
-    Add Expenses: Use the form to input description, amount, and date.
-    View Expenses: Displays a list of expenses in a readable format (dd-mm-yyyy).
-    Edit Expenses: Modify an existing expense via a popup modal.
-    Delete Expenses: Remove an expense from the list and the database.
-    Total Expenses: Automatically calculates and displays the total expense.
+    Add Items: Use the form to input description and amount.
+    View Items: Displays a list of items.
+    Edit Items: Modify an existing item via a popup modal.
+    Delete Items: Remove an item from the list and the database.
+    Total Amount: Automatically calculates and displays the total amount.
 
 Requirements
 
@@ -32,8 +32,8 @@ Requirements
 Installation and Setup
 Clone the Repository
 
-    git clone https://github.com/caiquefrd/expenses-tracker.git
-    cd expense-tracker
+    git clone https://github.com/caiquefrd/shopping-list.git
+    cd shopping-list
 
 Backend Setup
 
@@ -67,7 +67,7 @@ Open index.html in your browser:
 
 Project Structure:
 
-    expense-tracker/
+    shopping-list/
     ├── front/              # Frontend code
     │   ├── index.html      # Main HTML file
     │   ├── styles.css      # Styles for the frontend
@@ -76,13 +76,12 @@ Project Structure:
     │   ├── src/            # Source code
     │   │   ├── index.ts    # Entry point of the server
     │   │   ├── models/     # Mongoose models
-    │   │   │   └── expense.ts
+    │   │   │   └── shopping_model.ts
     │   │   └── routes/     # Routes for CRUD operations
-    │   │       └── expenseRoutes.ts
+    │   │       └── shopping_routes.ts
     │   ├── package.json    # Dependencies and scripts
-    │   └── tsconfig.json   # TypeScript configuration
+    ��   └── tsconfig.json   # TypeScript configuration
     └── README.md           # Project documentation
-
 
 License
 

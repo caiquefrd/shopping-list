@@ -8,23 +8,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Controle de despesas</h1>
-    <form id="expense-form">
-        <input type="text" id="description" placeholder="Descrição" required>
+    <h1>Lista de compras</h1>
+    <form id="shopping-form">
+        <input type="text" id="description" placeholder="Item" required>
         <input type="number" id="amount" placeholder="Valor (R$)" required>
-        <input type="date" id="date" placeholder="Data dd/mm/aaaa" required>
-        <button type="submit">Adicionar despesa</button>
+        <button type="submit">Adicionar Item</button>
     </form>
-    <h2>Total: R$<span id="total-expenses">0.00</span></h2>
-    <ul id="expense-list"></ul>
+    <ul id="shopping-list"></ul>
     <div id="edit-modal" class="modal">
         <div class="modal-content">
             <span id="close-modal" class="close">&times;</span>
-            <h2>Edit Expense</h2>
+            <h2>Edit Item</h2>
             <form id="edit-form">
                 <input type="text" id="edit-description" placeholder="Descrição" required>
                 <input type="number" id="edit-amount" placeholder="Valor (R$)" required>
-                <input type="date" id="edit-date" required>
                 <button type="button" id="save-edit">Salvar</button>
             </form>
         </div>

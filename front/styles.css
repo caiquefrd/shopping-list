@@ -1,5 +1,5 @@
 body {
-  background-color: darkslategray;
+  background-color: white;
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 0;
@@ -7,7 +7,7 @@ body {
   flex-direction: column;
   align-items: center;
   display: flex;
-  color: white;
+  color: black;
   justify-content: center;
   min-height: 100vh;
   margin: 0;
@@ -30,7 +30,7 @@ button {
 
 button {
   margin: 20px 15px;
-  background-color: lightblue;
+  background-color: lightgreen;
   border: none;
   color: black;
   cursor: pointer;
@@ -66,7 +66,7 @@ button.edit {
   margin: 0 0px 0px 20px;
   width: 90px;
   border-radius: 20px;
-  background-color: lightblue;
+  background-color: lightgreen;
 }
 
 button.delete {
